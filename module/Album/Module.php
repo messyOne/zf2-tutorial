@@ -2,6 +2,8 @@
 // module/Album/Module.php
 namespace Album;
 
+use Album\Model\AlbumTable;
+
 class Module
 {
     public function getAutoloaderConfig()
